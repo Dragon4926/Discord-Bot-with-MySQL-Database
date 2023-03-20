@@ -20,6 +20,8 @@
   <li>Create a <code>.env</code> file in the root directory of the project with the following variables:</li>
   <pre><code>PASSWORD=your_mysql_password
 TOKEN=your_discord_bot_token
+GUILD_ID=your_channel_id
+CLIENT_ID=your_bot_application_id
 </code></pre>
 <p>Replace <code>your_mysql_password</code> with the password for your MySQL database, and <code>your_discord_bot_token</code> with the token for your Discord bot. You can obtain a bot token by creating a new bot application in the Discord developer portal.</p>
 <li>Update the <code>db</code> constant in <code>index.js</code> with your MySQL database credentials:</li>
